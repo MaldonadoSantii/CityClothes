@@ -18,7 +18,47 @@ footer{
     height: 7vh;
 }
 
-
+/* //Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) { 
+    
+    /* NAVEGACION */
+    .titulo__city{
+        font-size: 25px !important;
+    }
+    .nav__iconos{
+        height:25px !important;
+    }
+/* IMAGENES DE INICIO  */
+    
+    .foto__uno{
+        height: 400px !important;
+    }
+    .fotos__medio{
+        width: 425px !important;
+        height: 400px !important;
+       margin: 0px !important;
+       padding-left: 0px !important;
+       padding-right: 0px !important;
+    }
+    .foto__dos{
+        width: 50% !important;
+        height: 400px !important;
+    }
+    .foto__tres{
+        width: 50% !important;
+        height: 400px !important;
+    }
+    .foto__cuatro{
+        height: 400px !important;
+        margin-top:-290px !important;
+    }
+    .footer__cero{
+        margin-top: 509px !important;
+        display: flex !important;
+        font-size: 12px !important;
+        justify-content: center;
+    }
+}
 
 
 
