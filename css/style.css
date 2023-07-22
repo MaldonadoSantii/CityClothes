@@ -27,7 +27,9 @@ footer{
         font-size: 25px !important;
     }
     .nav__iconos{
-        height:25px !important;
+       height: 20px !important;
+       width: 20px !important;
+      
     }
 /* IMAGENES DE INICIO  */
     /* INDEX */
@@ -38,15 +40,15 @@ footer{
         height: 400px !important;
     }
     .fotos__medio{
-        height: 500px !important;
+        height: 400px !important;
     }
     .foto__dos{
-        width: 50% !important;
-        height: 12px !important;
+        width: 50% !important; 
+         height: 400px !important;
     }
     .foto__tres{
         width: 50% !important;
-        /* height: 400px !important; */
+        
     }
     .foto__cuatro{
          height: 400px !important; 
@@ -63,6 +65,10 @@ footer{
     .boton__nav--ul{
         margin-left: 15px !important;
         margin-right: 0px !important;
+    }
+    .img__nav--catalogo{
+        height: 20px !important;
+       padding-right: 0px !important;
     }
     /* PUBLICIDAD */
     .publicidad__catalogo{
@@ -112,8 +118,13 @@ footer{
    .text__pesos{
     width: 20px !important;
    }
-
-
+   .form__de--contactanos{
+    margin-top: 200px !important;
+   }
+ 
+    .form__contact{
+        padding-left: 60px !important;
+    }
 
 }
 /* // Medium devices (tablets, 768px and up) */
@@ -155,6 +166,12 @@ footer{
 }
 .text__pesos{
     width: 20px !important;
+}
+.form__de--contactanos{
+    padding-top: 200px !important;
+}
+.row__li{
+    width: px !important;
 }
 }
 
