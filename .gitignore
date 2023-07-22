@@ -1,0 +1,14 @@
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar directorio de dependencias
+/node_modules/
+
+# Ignorar archivos de configuración local
+.env
+config.ini
+
+# Ignorar archivos de compilación
+/build/
+/dist/
