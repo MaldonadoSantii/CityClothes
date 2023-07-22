@@ -1,0 +1,188 @@
+* {
+   margin: 0 !important;
+   padding: 0 !important;
+   box-sizing: border-box !important; 
+}
+body{
+    height: 100vh;
+}
+header{
+    height: 10vh;
+}
+main{
+    height: 83vh;
+}
+footer{
+    height: 7vh;
+}
+
+/* //Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) { 
+    /* INDEX */
+    /* NAVEGACION */
+    .titulo__city{
+        font-size: 25px !important;
+    }
+    .nav__iconos{
+        height:25px !important;
+       height: 20px !important;
+       width: 20px !important;
+
+    }
+/* IMAGENES DE INICIO  */
+    /* INDEX */
+    .main__index{
+        height: auto;
+    }
+    .foto__uno{
+        height: 400px !important;
+    }
+    .fotos__medio{
+        height: 500px !important;
+        height: 400px !important;
+    }
+    .foto__dos{
+        width: 50% !important;
+        height: 12px !important;
+        width: 50% !important; 
+         height: 400px !important;
+    }
+    .foto__tres{
+        width: 50% !important;
+        /* height: 400px !important; */
+
+    }
+    .foto__cuatro{
+         height: 400px !important; 
+      
+    }
+    .footer__cero{
+        font-size: 12px !important;
+        justify-content: center;
+    }
+    /* CATALOGO */
+    .catalogo__titulo{
+        font-size: 1em !important;
+    }
+    .boton__nav--ul{
+        margin-left: 15px !important;
+        margin-right: 0px !important;
+    }
+    .img__nav--catalogo{
+        height: 20px !important;
+       padding-right: 0px !important;
+    }
+    /* PUBLICIDAD */
+    .publicidad__catalogo{
+        display: none;
+    }
+   .main__catalogo{
+    height: auto;
+   }
+   .buzo__stussy{
+    font-size: 12px !important;
+    text-align: center !important;
+   }
+   .buzo__essential{
+    font-size: 12px !important;
+    text-align: center !important;
+   }
+   .li__s--black{
+    padding-top: 3px !important;
+   }
+   /* MI PERFIL */
+   .main__miperfil{
+    height: auto;
+    
+   }
+   .botones__miperfil{
+    margin-left: 25px !important;
+    padding-left: 0px !important;
+   }
+   .miperfil__titulo{
+    font-size: 23px !important;
+   }
+   .img__carrito{
+    height: 40px !important;
+    width: 40px !important;
+   }
+   .div__de--miperfil{
+    height: 42px !important;
+   }
+   .img_pesos{
+    height: 20px !important;
+    width: 20px !important;
+    
+   }
+   .div__pesos{
+    height: 42px !important;
+   }
+   .text__pesos{
+    width: 20px !important;
+   }
+
+
+   .form__de--contactanos{
+    margin-top: 200px !important;
+   }
+
+    .form__contact{
+        padding-left: 60px !important;
+    }
+
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 576px) { 
+    .main__catalogo{
+        height: auto;
+    }
+    .catalogo__titulo{
+        height: 1em !important;
+    }
+  .div__de--imagenes{
+    width: 100% !important;
+ }
+.publicidad__catalogo{
+    display: none;
+}
+.main__catalogo{
+    width: 100% !important;
+}
+.miperfil__titulo{
+    font-size: 25px;
+}
+.main__miperfil{
+    height: auto;
+}
+.img_pesos{
+    height: 25px;
+    width: 25px !important;
+}
+.div__pesos{
+    height: 42px;
+}
+.img__carrito{
+    height: 40px;
+    width: 40px !important;
+}
+.div__de--miperfil{
+    height: 42px;
+}
+.text__pesos{
+    width: 20px !important;
+}
+.form__de--contactanos{
+    padding-top: 200px !important;
+}
+
+}
+
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 992px) and (max-width: 1440px) {
+    .publicidad__catalogo{
+        display: block;
+    }
+ .main__miperfil{
+    height: 83vh;
+ }
+}
