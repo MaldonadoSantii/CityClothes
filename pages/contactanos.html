@@ -33,21 +33,44 @@
 
 
     
-    <main class="container-fluid bg-secondary" style="--bs-bg-opacity: .4">
-        <div class="h-100">
+    <main class="main__contactanos container-fluid d-flex bg-secondary" style="--bs-bg-opacity: .4">
+        <!-- <div class="h-100 d-flex w-100 justify-content-center">
          <form class="form__de--contactanos text-center">
             <fieldset>
                <H2>Formulario de consultas</H2>
-             <ul class="container-fluid">
-               <li class="d-flex justify-content-center "> <input type="name" size="30" value="Nombre y apellido completo" class=" form__contact"></li>
+             <ul class="list-unstyled">
+               <li class=" justify-content-center "> <input type="name" size="30" value="Nombre y apellido completo" class=" form__contact"></li>
                <li class="d-flex justify-content-center"> <input type="email" size="30" name="Correo electronico" class="form__contact"></li>
                <li class="d-flex justify-content-center"> <input type="text" size="30" name="Dejanos un comentario" class="form__contact"></li>
                <input type="submit" value="Enviar formulario">
              </ul>
             </fieldset>
          </form>
+        </div> -->
+        <div class="row w-100">
+            <div class="col-3">
+
+            </div>
+        <form class="col-6 mx-auto mt-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="DejeSuReclamo" class="form-label">Dejenos su consulta</label>
+                <input type="text" class="form-control" id="DejeSuReclamo">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <div class="col-3">
+
+          </div>
         </div>
-        </main>
+    </main>
         <!-- PIE DE PAGINA -->
     <footer class="footer__cero container-fluid bg-dark text-secondary">
         <p class="justify-content-center d-flex pt-3 "> TODOS LOS DERECHOS RESERVADOS &copy;COPYRIGHT2023</p>
