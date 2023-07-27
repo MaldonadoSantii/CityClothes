@@ -57,9 +57,15 @@ footer {
   .foto__cuatro {
     height: 400px !important;
   }
-  .footer__cero {
-    font-size: 12px !important;
+  .footer__allpages {
+    height: auto !important;
+  }
+  .logos__redes {
+    display: flex !important;
     justify-content: center;
+  }
+  .footer__p {
+    font-size: 12px !important;
   }
   /* CATALOGO */
   .catalogo__titulo {
@@ -119,9 +125,6 @@ footer {
   .text__pesos {
     width: 20px !important;
   }
-  .form__de--contactanos {
-    margin-top: 200px !important;
-  }
   .form__contact {
     padding-left: 60px !important;
   }
@@ -169,15 +172,25 @@ footer {
   .form__de--contactanos {
     padding-top: 200px !important;
   }
+  .footer__allpages {
+    height: 70px !important;
+  }
 }
 /*** Responsive Styles Standard Desktop Only ***/
-@media all and (min-width: 992px) and (max-width: 1440px) {
+@media all and (min-width: 992px) and (max-width: 1450px) {
   .publicidad__catalogo {
     display: block;
   }
-  .main__miperfil {
+  .main__compras {
     height: 83vh;
   }
-}
-
-/*# sourceMappingURL=style.css.map */
+  .footer__allpages {
+    height: auto !important;
+  }
+  .footer__mp {
+    height: 700px !important;
+  }
+  .main__mi--perfil {
+    height: 84vh !important;
+  }
+}/*# sourceMappingURL=styles.css.map */
