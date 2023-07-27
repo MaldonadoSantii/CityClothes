@@ -96,25 +96,12 @@ footer{
    .li__s--black{
     padding-top: 3px !important;
    }
-   /* MI PERFIL */
-   .main__miperfil{
-    height: auto;
-    
-   }
-   .botones__miperfil{
-    margin-left: 25px !important;
-    padding-left: 0px !important;
-   }
-   .miperfil__titulo{
-    font-size: 23px !important;
-   }
+
    .img__carrito{
     height: 40px !important;
     width: 40px !important;
    }
-   .div__de--miperfil{
-    height: 42px !important;
-   }
+
    .img_pesos{
     height: 20px !important;
     width: 20px !important;
@@ -126,16 +113,18 @@ footer{
    .text__pesos{
     width: 20px !important;
    }
-
-
-   
-
     .form__contact{
         padding-left: 60px !important;
-    }
-    
+    }   
 
 }
+@media all and (min-width: 385px) and (max-width: 576px) {
+    .div__card{
+        margin-right: 14px !important;
+    }
+}
+
+
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) { 
     .main__catalogo{
@@ -154,9 +143,7 @@ footer{
 .main__catalogo{
     width: 100% !important;
 }
-.miperfil__titulo{
-    font-size: 25px;
-}
+
 .main__miperfil{
     height: auto;
 }
@@ -171,9 +158,7 @@ footer{
     height: 40px;
     width: 40px !important;
 }
-.div__de--miperfil{
-    height: 42px;
-}
+
 .text__pesos{
     width: 20px !important;
 }
@@ -183,9 +168,7 @@ footer{
 .footer__allpages{
     height: 70px !important;
 }
-// .footer__p{
-//     font-size: 12px !important;
-// }
+
 
 }
 
@@ -200,11 +183,9 @@ footer{
       .footer__allpages {
         height: auto !important;
       }
-      .footer__mp{
-        height: 700px !important;
+      .main__miperfil{
+        height: 83vh !important;
       }
-      .main__mi--perfil{
-        height: 84vh !important;
-      }
+     
     
 }
