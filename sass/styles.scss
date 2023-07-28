@@ -115,12 +115,20 @@ footer{
    }
     .form__contact{
         padding-left: 60px !important;
-    }   
-
+    }  
+  .compras__titulo{
+    font-size: 20px !important ;
+  }
+  .div__de--miperfil{
+    margin-top: 32px !important;
 }
-@media all and (min-width: 385px) and (max-width: 576px) {
+}
+@media all and (min-width: 375px) and (max-width: 576px) {
     .div__card{
         margin-right: 14px !important;
+    }
+    .div__de--miperfil{
+        margin-top: 32px !important;
     }
 }
 
@@ -168,8 +176,12 @@ footer{
 .footer__allpages{
     height: 70px !important;
 }
-
-
+.div__de--miperfil{
+    margin-top: 32px !important;
+}
+.compras__titulo{
+    font-size: 25px !important;
+}
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
@@ -186,6 +198,12 @@ footer{
       .main__miperfil{
         height: 83vh !important;
       }
-     
-    
+ .transicion__uno{
+        width: 100px;
+        height: 100px;
+        transition: all 0.3s ease; /* Agregamos una transición para un efecto suave */
+ }
+ .transicion__uno:hover{
+    transform: scale(1.2); /* Cambiamos la escala a 1.2 (un 20% más grande) */
+ }
 }

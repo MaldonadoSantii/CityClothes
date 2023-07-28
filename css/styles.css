@@ -114,6 +114,9 @@ footer {
   .form__contact {
     padding-left: 60px !important;
   }
+  .compras__titulo {
+    font-size: 3em;
+  }
 }
 @media all and (min-width: 385px) and (max-width: 576px) {
   .div__card {
@@ -175,6 +178,4 @@ footer {
   .main__miperfil {
     height: 83vh !important;
   }
-} 
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
