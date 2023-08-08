@@ -21,6 +21,24 @@ footer {
   height: 7vh;
 }
 
+.h5__miperfil {
+  margin-left: 100px !important;
+}
+
+.boton__miperfil {
+  background-color: rgb(88, 82, 82) !important;
+  border-color: rgb(88, 82, 82) !important;
+}
+
+.boton__contactanos {
+  background-color: rgb(88, 82, 82) !important;
+  border-color: rgb(88, 82, 82) !important;
+}
+
+.form__control--contactanos {
+  height: 200px !important;
+}
+
 /* //Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   /* INDEX */
@@ -69,6 +87,24 @@ footer {
     font-size: 12px !important;
   }
   /* CATALOGO */
+  .li__s--black {
+    font-size: 13px !important;
+  }
+  .li__s--pink {
+    font-size: 13px !important;
+  }
+  .li__s--white {
+    font-size: 13px !important;
+  }
+  .li__e--grey {
+    font-size: 13px !important;
+  }
+  .li__e--brown {
+    font-size: 13px !important;
+  }
+  .li__e--white {
+    font-size: 13px !important;
+  }
   .catalogo__titulo {
     font-size: 1em !important;
   }
@@ -251,5 +287,28 @@ footer {
     margin-top: 20px !important;
     font-size: 16px !important;
     margin-left: 40px !important;
+  }
+}
+@media all and (min-width: 1440px) {
+  .img__construccion {
+    width: 300px !important;
+    height: 300px !important;
+    margin-left: 550px !important;
+  }
+  .titulo__construccion {
+    font-size: 2em;
+    margin-top: 50px !important;
+    margin-left: 500px !important;
+  }
+  .texto__construccion {
+    margin-top: 20px !important;
+    font-size: 20px !important;
+    margin-left: 200px !important;
+  }
+  .main__catalogo {
+    height: 83vh !important;
+  }
+  .footer__allpages {
+    height: 7vh !important;
   }
 }/*# sourceMappingURL=styles.css.map */
