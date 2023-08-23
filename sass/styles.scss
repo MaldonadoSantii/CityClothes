@@ -4,16 +4,16 @@
    box-sizing: border-box !important; 
 }
 body{
-    height: 100vh;
+    height: 100vh !important;
 }
 header{
-    height: 10vh;
+    height: 10vh !important;
 }
 main{
-    height: 83vh;
+    height: 83vh !important;
 }
 footer{
-    height: 7vh;
+    height: 7vh !important;
 }
 // CAMBIOS GENERALES
 .h5__miperfil{
@@ -48,7 +48,7 @@ footer{
 /* IMAGENES DE INICIO  */
     /* INDEX */
     .main__index{
-        height: auto;
+        height: auto !important;
     }
     .foto__uno{
         height: 400px !important;
@@ -82,6 +82,7 @@ footer{
    .footer__p{
     font-size: 12px !important;
    }
+  
     /* CATALOGO */
     .li__s--black{
         font-size: 13px !important;
@@ -120,7 +121,7 @@ footer{
         display: none;
     }
    .main__catalogo{
-    height: auto;
+    height: auto !important;
    }
    .buzo__stussy{
     font-size: 12px !important;
@@ -173,6 +174,42 @@ footer{
 .texto__construccion{
     margin-top: 20px !important;
     font-size: 14px !important;
+}
+.img-stussy{
+    height: 150px !important;
+    width: 150px !important;
+}
+.text-stussy{
+    font-size: 12.5px !important;
+}
+.tabla__medidas{
+   font-size: 14px !important; 
+}
+.text__medida{
+    font-size: 12px !important;
+}
+.precio__buzo{
+    font-size: 22px;
+    
+}
+.tarjeta__credito{
+    height: 25px !important;
+    width: 25px !important;
+}
+.texto__cuotas{
+    font-size: 13px !important;
+}
+.efectivo__transferencia{
+    height: 25px !important;
+    width: 25px !important;
+}
+.boton__h5{
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    margin-left: 80px !important;
+    width: 150px !important;
+    background-color: grayscale($color: #9b9898) !important;
+    color: white !important;
 }
 }
 @media all and (min-width: 375px) and (max-width: 576px) {
@@ -266,8 +303,8 @@ footer{
       .main__compras{
         height: 83vh;
       }
-      .footer__allpages {
-        height: auto !important;
+     .footer__allpages {
+         height: auto !important;
       }
       .main__miperfil{
         height: 83vh !important;
@@ -313,10 +350,21 @@ footer{
         font-size: 20px !important;
         margin-left: 200px !important;
     }
+  
     .main__catalogo{
-        height: 83vh !important;
-    }
+        height: auto !important;
+    } 
+    
     .footer__allpages{
-        height: 7vh !important;
+        height: auto !important;
+    }
+    .footer__p{
+        font-size: 14px !important;
+    }
+    .buzo__essential{
+        font-size: 15px !important;
+    }
+    .buzo__stussy{
+        font-size: 15px !important;
     }
 }
