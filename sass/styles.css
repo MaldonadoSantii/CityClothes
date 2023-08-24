@@ -172,6 +172,9 @@ footer {
     margin-top: 20px !important;
     font-size: 14px !important;
   }
+  .main__buzos {
+    height: auto !important;
+  }
   .img-stussy {
     height: 150px !important;
     width: 150px !important;
@@ -207,6 +210,16 @@ footer {
     background-color: #9a9a9a !important;
     color: white !important;
   }
+  .btn__volver--text {
+    margin-left: 220px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    color: #757575 !important;
+    text-decoration: none !important;
+  }
+  .main__buzos {
+    height: 82vh !important;
+  }
 }
 @media all and (min-width: 375px) and (max-width: 576px) {
   .div__card {
@@ -222,12 +235,30 @@ footer {
     margin-left: 95px !important;
     margin-top: 5px !important;
   }
+  .boton__h5 {
+    margin-left: 108px !important;
+    margin-bottom: 30px !important;
+  }
+  .btn__volver {
+    margin-top: 50px !important;
+  }
+  .btn__volver--text {
+    margin-left: 280px !important;
+    margin-top: 50px !important;
+    font-size: 12px !important;
+    color: #757575 !important;
+    text-decoration: none !important;
+  }
+  .main__buzos {
+    height: auto !important;
+  }
+  .text-stussy {
+    margin-left: -33px !important;
+    font-size: 14px !important;
+  }
 }
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 576px) {
-  .main__catalogo {
-    height: auto;
-  }
   .catalogo__titulo {
     height: 1em !important;
   }
@@ -236,9 +267,6 @@ footer {
   }
   .publicidad__catalogo {
     display: none;
-  }
-  .main__catalogo {
-    width: 100% !important;
   }
   .main__miperfil {
     height: auto;
@@ -284,14 +312,68 @@ footer {
     margin-top: 20px !important;
     font-size: 14px !important;
   }
+  .main__buzos {
+    height: auto !important;
+  }
+  .img-stussy {
+    height: 250px !important;
+    width: 250px !important;
+  }
+  .text-stussy {
+    font-size: 16px !important;
+  }
+  .tabla__medidas {
+    font-size: 14px !important;
+  }
+  .text__medida {
+    font-size: 12px !important;
+  }
+  .precio__buzo {
+    font-size: 22px;
+  }
+  .tarjeta__credito {
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .texto__cuotas {
+    font-size: 13px !important;
+    margin-left: -35px !important;
+  }
+  .efectivo__transferencia {
+    height: 25px !important;
+    width: 25px !important;
+  }
+  .boton__h5 {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    margin-left: 300px !important;
+    width: 150px !important;
+    background-color: #9a9a9a !important;
+    color: white !important;
+  }
+  .btn__volver--text {
+    margin-left: 640px !important;
+    text-decoration: none !important;
+    color: #757575;
+  }
+  .main__catalogo {
+    height: auto !important;
+  }
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 992px) and (max-width: 1450px) {
   .publicidad__catalogo {
-    display: block;
+    display: flex;
+    max-height: 600px !important;
+  }
+  .img__publicidad {
+    max-width: 170px !important;
   }
   .main__compras {
     height: 83vh;
+  }
+  .main__catalogo {
+    height: auto !important;
   }
   .footer__allpages {
     height: auto !important;
@@ -323,6 +405,65 @@ footer {
     font-size: 16px !important;
     margin-left: 40px !important;
   }
+  .transicion__dos {
+    width: 1000px;
+    height: 1000px;
+    transition: all 0.3s ease; /* Agregamos una transición para un efecto suave */
+  }
+  .transicion__dos:hover {
+    transform: scale(1.2); /* Cambiamos la escala a 1.2 (un 20% más grande) */
+  }
+  .img-stussy {
+    height: 350px !important;
+    width: 350px !important;
+  }
+  .text-stussy {
+    font-size: 22px !important;
+    margin-left: 20px !important;
+  }
+  .tabla__medidas {
+    font-size: 20px !important;
+  }
+  .text__medida {
+    font-size: 16px !important;
+  }
+  .nombre__buzo {
+    font-size: 2em !important;
+  }
+  .precio__buzo {
+    font-size: 22px;
+    margin-left: 5px !important;
+  }
+  .tarjeta__credito {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .texto__cuotas {
+    font-size: 16px !important;
+  }
+  .efectivo__transferencia {
+    height: 40px !important;
+    width: 40px !important;
+  }
+  .boton__h5 {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    margin-left: 80px !important;
+    width: 150px !important;
+    background-color: #9a9a9a !important;
+    color: white !important;
+  }
+  .btn__volver--text {
+    margin-left: 900px !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    color: #757575 !important;
+    text-decoration: none !important;
+  }
+  .main__buzos {
+    height: auto !important;
+    overflow: hidden;
+  }
 }
 @media all and (min-width: 1440px) {
   .img__construccion {
@@ -340,8 +481,16 @@ footer {
     font-size: 20px !important;
     margin-left: 200px !important;
   }
+  .main__index {
+    height: 84.3vh !important;
+    overflow: hidden !important;
+  }
   .main__catalogo {
+    text-align: center !important;
     height: auto !important;
+  }
+  .buzo__stussy {
+    list-style-type: circle !important;
   }
   .footer__allpages {
     height: auto !important;
@@ -354,5 +503,68 @@ footer {
   }
   .buzo__stussy {
     font-size: 15px !important;
+  }
+  .transicion__dos {
+    width: 1000px;
+    height: 1000px;
+    transition: all 0.3s ease; /* Agregamos una transición para un efecto suave */
+  }
+  .transicion__dos:hover {
+    transform: scale(1.02); /* Cambiamos la escala a 1.2 (un 20% más grande) */
+  }
+  .img-stussy {
+    height: 450px !important;
+    width: 450px !important;
+  }
+  .text-stussy {
+    font-size: 26px !important;
+    margin-left: -25px !important;
+  }
+  .tabla__medidas {
+    font-size: 24px !important;
+  }
+  .text__medida {
+    margin-top: 60px !important;
+    font-size: 24px !important;
+  }
+  .nombre__buzo {
+    font-size: 3em !important;
+  }
+  .precio__buzo {
+    font-size: 2em;
+    margin-left: 5px !important;
+  }
+  .tarjeta__credito {
+    height: 60px !important;
+    width: 60px !important;
+  }
+  .texto__cuotas {
+    font-size: 24px !important;
+    margin-left: -50px !important;
+  }
+  .efectivo__transferencia {
+    height: 60px !important;
+    width: 60px !important;
+  }
+  .boton__h5 {
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    margin-left: 600px !important;
+    width: 200px !important;
+    background-color: #9a9a9a !important;
+    color: white !important;
+    font-size: 24px !important;
+  }
+  .btn__volver--text {
+    display: flex;
+    margin-left: 1250px !important;
+    margin-top: 50px !important;
+    font-size: 20px !important;
+    color: #757575 !important;
+    text-decoration: none !important;
+  }
+  .main__buzos {
+    height: auto !important;
+    overflow: hidden;
   }
 }/*# sourceMappingURL=styles.css.map */
