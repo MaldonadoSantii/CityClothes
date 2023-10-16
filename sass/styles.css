@@ -21,6 +21,10 @@ footer {
   height: 7vh !important;
 }
 
+#cartItemCount {
+  margin-right: 20px !important;
+}
+
 .h5__miperfil {
   margin-left: 100px !important;
 }
